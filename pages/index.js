@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Home() {
   const [sideBar, setsideBar] = useState();
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden ">
       <div className="">
         <div className="relative block group pb-44">
           <Image
