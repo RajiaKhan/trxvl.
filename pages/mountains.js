@@ -1,4 +1,3 @@
-"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Image from "next/image";
@@ -336,114 +335,134 @@ export default function Home() {
                       </h1>
                     </div>
                   </Link>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-6.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Deserts
-                    </h1>
-                  </div>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-7.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Mountains
-                    </h1>
-                  </div>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-8.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Iconic Cities
-                    </h1>
-                  </div>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-9.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Houseboats
-                    </h1>
-                  </div>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-10.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Countryside
-                    </h1>
-                  </div>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-11.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Camping
-                    </h1>
-                  </div>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-12.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Castles
-                    </h1>
-                  </div>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-13.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Skiing
-                    </h1>
-                  </div>
-                  <div className="">
-                    <Image
-                      className="mx-auto"
-                      src="/icon-14.svg"
-                      width={35}
-                      height={35}
-                      alt="icon"
-                    />
-                    <h1 className="text-white text-[17px] font-normal text-center pt-3">
-                      Tropical
-                    </h1>
-                  </div>
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-6.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Deserts
+                      </h1>
+                    </div>
+                  </Link>
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-7.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Mountains
+                      </h1>
+                    </div>
+                  </Link>
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-8.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Iconic Cities
+                      </h1>
+                    </div>
+                  </Link>
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-9.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Houseboats
+                      </h1>
+                    </div>
+                  </Link>
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-10.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Countryside
+                      </h1>
+                    </div>
+                  </Link>
+
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-11.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Camping
+                      </h1>
+                    </div>
+                  </Link>
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-12.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Castles
+                      </h1>
+                    </div>
+                  </Link>
+
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-13.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Skiing
+                      </h1>
+                    </div>
+                  </Link>
+                  <Link href="/index">
+                    <div className="">
+                      <Image
+                        className="mx-auto"
+                        src="/icon-14.svg"
+                        width={35}
+                        height={35}
+                        alt="icon"
+                      />
+                      <h1 className="text-white text-[17px] font-normal text-center pt-3">
+                        Tropical
+                      </h1>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1247,60 +1266,68 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" ">
-                <div className="">
-                  <Image
-                    className="mx-auto"
-                    src="/t-5.svg"
-                    width={35}
-                    height={35}
-                    alt="icon"
-                  />
-                  <h1 className="text-black md:text-[17px] sm:text-[12px] text-[8px] font-normal text-center pt-3">
-                    Houseboats
-                  </h1>
-                </div>
+                <Link href="/index">
+                  <div className="">
+                    <Image
+                      className="mx-auto"
+                      src="/t-5.svg"
+                      width={35}
+                      height={35}
+                      alt="icon"
+                    />
+                    <h1 className="text-black md:text-[17px] sm:text-[12px] text-[8px] font-normal text-center pt-3">
+                      Houseboats
+                    </h1>
+                  </div>
+                </Link>
               </SwiperSlide>
               <SwiperSlide className=" ">
-                <div className="">
-                  <Image
-                    className="mx-auto"
-                    src="/t-1.svg"
-                    width={35}
-                    height={35}
-                    alt="icon"
-                  />
-                  <h1 className="text-black md:text-[17px] sm:text-[12px] text-[8px] font-normal text-center pt-3">
-                    Camping
-                  </h1>
-                </div>
+                <Link href="/index">
+                  <div className="">
+                    <Image
+                      className="mx-auto"
+                      src="/t-1.svg"
+                      width={35}
+                      height={35}
+                      alt="icon"
+                    />
+                    <h1 className="text-black md:text-[17px] sm:text-[12px] text-[8px] font-normal text-center pt-3">
+                      Camping
+                    </h1>
+                  </div>
+                </Link>
               </SwiperSlide>
               <SwiperSlide className=" ">
-                <div className="">
-                  <Image
-                    className="mx-auto"
-                    src="/t-2.svg"
-                    width={35}
-                    height={35}
-                    alt="icon"
-                  />
-                  <h1 className="text-black md:text-[17px] sm:text-[12px] text-[8px] font-normal text-center pt-3">
-                    Camping
-                  </h1>
-                </div>
+                <Link href="/index">
+                  <div className="">
+                    <Image
+                      className="mx-auto"
+                      src="/t-2.svg"
+                      width={35}
+                      height={35}
+                      alt="icon"
+                    />
+                    <h1 className="text-black md:text-[17px] sm:text-[12px] text-[8px] font-normal text-center pt-3">
+                      Camping
+                    </h1>
+                  </div>
+                </Link>
               </SwiperSlide>
               <SwiperSlide className=" ">
-                <div className="">
-                  <Image
-                    className="mx-auto"
-                    src="/t-3.svg"
-                    width={35}
-                    height={35}
-                    alt="icon"
-                  />
-                  <h1 className="text-black md:text-[17px] sm:text-[12px] text-[8px] font-normal text-center pt-3">
-                    Mountains
-                  </h1>
-                </div>
+                <Link href="/index">
+                  <div className="">
+                    <Image
+                      className="mx-auto"
+                      src="/t-3.svg"
+                      width={35}
+                      height={35}
+                      alt="icon"
+                    />
+                    <h1 className="text-black md:text-[17px] sm:text-[12px] text-[8px] font-normal text-center pt-3">
+                      Mountains
+                    </h1>
+                  </div>
+                </Link>
               </SwiperSlide>
             </div>
           </Swiper>
